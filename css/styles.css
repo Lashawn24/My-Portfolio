@@ -241,7 +241,7 @@ sup {
 
 a {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #50817e;
@@ -11618,25 +11618,31 @@ body {
 }
 .projects-section .featured-text {
   padding: 2rem;
+  color: blue;
+  font-size: medium;
 }
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    
   }
 }
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
+  
+
 }
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
+    
   }
   .projects-section .project-text hr {
     border-color: #64a19d;
     border-width: 0.25rem;
     width: 30%;
+  
   }
 }
 
@@ -11700,5 +11706,10 @@ body {
   padding: 5rem 0;
 }
 li{
-  color: red
+  color: red;
+  font-size: larger;
+}
+
+.headings{
+  color:red;
 }
